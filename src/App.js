@@ -81,7 +81,6 @@ export default class App extends Component{
     resultado: '' 
   }
 
-
   divisao = () => {
     this.setState({
       resultado: this.state.n1 / this.state.n2
