@@ -95,7 +95,7 @@ export default class App extends Component{
 
   adicao = () => {
     this.setState({
-      resultado:Number.parseInt(this.state.n1) + Number.parseInt(this.state.n2)
+      resultado:this.state.n1 + this.state.n2
     }) 
 
   }
@@ -114,13 +114,13 @@ export default class App extends Component{
 
   handleChange1 = (event) => {
     this.setState({
-      n1: event.target.value
+      n1: number(event.target.value)
     })
   }
 
   handleChange2 = (event) => {
     this.setState({
-      n2: event.target.value
+      n2: number(event.target.value)
     })
   }
 

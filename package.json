@@ -1,7 +1,7 @@
 {
   "name": "calculadora",
   "version": "0.1.0",
-  "homepage": "https://Felipesv1.github.io/Desafio-Calculadora",
+  "homepage": "https://Felipesv1.github.io/Desafio-calculadora",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
